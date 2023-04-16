@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>&#128230Thuisbezorgd</title>
+</head>
+<body>
+    <div class="svg-overlay-wrap">
+        <h1>
+        Impact Levering
+        </h1>
+        <h2>
+        Op CO2 Uitstoot
+        </h2>
+        <svg id="thuisbezorgds" class="thuisbezorgdbackground" viewBox="0 0 1000 1000" width="1600" height="900" xmlns="http://www.w3.org/2000/svg" >
+            <g id="cloud_left">
+            <path id="cloud_left_2" d="M80 300C80 300.0422 70.99951 300.0844 70.99866 300.1264C80.31873 300.0439 80.65417 300 90 300C110.2091 300 130 310.7909 130 340C130 360.2091 110.2091 380 90 380H-40.5C-60.98523 380 -90 350.9853 -90 330.5C-90 310.0147 -60.98523 290 -40.5 290C-40.30457 290 -40.11194 290.0125 -30.9231 290.0367C-30.46216 260.1809 -9.8584 240 20 240C50.31372 240 80 260.6863 80 300Z" fill="#F1FAEE"/>
+            </g>
+            <g id="cloud_right">
+            <path id="cloud_right_2" d="M770 100C770 100.0422 760.9995 100.0844 760.9987 100.1264C770.3187 100.0439 770.6542 100 780 100C800.2091 100 820 110.7909 820 140C820 160.2091 800.2091 180 780 180H640.5C620.0148 180 600 150.9853 600 130.5C600 110.0147 620.0148 90 640.5 90C640.6954 90 640.8881 90.01248 650.0769 90.03665C650.5378 60.18091 680.0142 40 710 40C740.3137 40 770 60.68628 770 100Z" fill="#F1FAEE"/>
+            </g>
+            <defs>
+                <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                    <stop offset="70%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(136, 255, 0);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <rect id="rectbox" x="-330" y="600" style="fill:url(#grad);stroke-width: 20px;stroke:#a8dadc;" />
+            <rect id="rectfill" x="-320" y="610" style="fill: white"/>
+        </svg>
+        <button onclick="myFunction()" id="btnID" style="margin:450px 370px">Klik om te bezorging te starten</button>
+        <img class="parcelboximg" src="img/parcelbox.svg" width="300" height="auto" style="vertical-align:middle;margin:430px 90px" /> 
+        <img class="vanimg" src="img/van.svg" width="300" height="auto" style="vertical-align:middle;margin:200px 50px"/>
+        <img class="vanimgnh" src="img/vanrev.svg" width="300" height="auto" style="vertical-align:middle;margin:200px 1550px"/>
+        <a href="./ending.html" class="visbtn" style="margin:50px 460px"></a>
+    </div>
+<p class="thuisp">Thuis</p>
+<p class="ophaalpuntp">Ophaalpunt</p>
+<div id="textDiv"></div>
+<p id="pakketAangekomenTekst"></p>
+<link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+<script src="button.js"></script>
+<script src="textappear.js"></script>
+</body>
+</html>
